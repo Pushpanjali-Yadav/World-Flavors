@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/images/icon.png" type="image/x-icon">
+  <link rel="icon" href="icon.png" type="image/x-icon">
   <title>World Flavors</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
@@ -15,18 +15,18 @@
 
   <nav class="navbar bg bg-opacity-25 shadow-sm">
     <div class="container-fluid">
-       <a class="navbar-brand " href="/index.html"><img id="icon" src="/images/icon.png" alt=""/> World Flavors🥧</a>
+       <a class="navbar-brand " href="index.html"><img id="icon" src="icon.png" alt=""/> World Flavors🥧</a>
       <div> 
          <button id="btnnav" class="btn ms-3 btn-primary"><i class="fa-solid fa-user "></i></button>
       </div>
       </div>
   </nav>
   <!-- Linking all pages -->
-   <a href="/index.html"></a>
-   <a href="/categories.html"></a>
-   <a href="/dishes.html"></a>
-   <a href="/ingredients.html"></a>
-   <a href="/recipegallery.html"></a>
+   <a href="index.html"></a>
+   <a href="categories.html"></a>
+   <a href="dishes.html"></a>
+   <a href="ingredients.html"></a>
+   <a href="recipegallery.html"></a>
    <!-- Category Buttons -->
   <div id="hbar"></div>
   <!-- body starts... -->
@@ -44,7 +44,7 @@
       <div id="t6" class="col t"> <h3>Watch The Process Now</h3></div>
       <div id="ingredient-box" class="col"></div>
     </div>
-     <p id="youtube">To Cook with Experts Explore Our Recipe Video Gallery <a id="at" href="/recipegallery.html">Click here  <i class="fa-brands  fa-youtube fa-beat" style="color: rgb(189, 12, 12); font-size: xx-large;"></i></a></p>
+     <p id="youtube">To Cook with Experts Explore Our Recipe Video Gallery <a id="at" href="recipegallery.html">Click here  <i class="fa-brands  fa-youtube fa-beat" style="color: rgb(189, 12, 12); font-size: xx-large;"></i></a></p>
   </div>
 
   <!-- Right box (cards) -->
@@ -52,7 +52,7 @@
     <h4 class="text-center" >Visit Food Bloggers Sites</h4>
     <!-- Card 1 -->
     <div class="card mb-3">
-      <img src="/images/3rd.jpg" class="card-img-top" alt="...">
+      <img src="images/3rd.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">Welcome to Food Blogger <a href="https://www.dreamstime.com/photos-image">More about</a></p>
       </div>
@@ -60,7 +60,7 @@
 
     <!-- Card 2 -->
     <div class="card mb-3">
-      <img src="/images/4th.jpg" class="card-img-top" alt="...">
+      <img src="images/4th.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">Food Blogger <a href="https://www.dreamstime.com/photos-images/food-blogger.html">More about</a></p>
       </div>
@@ -68,7 +68,7 @@
 
     <!-- Card 3 -->
     <div class="card mb-3">
-      <img src="/images/1st.jpg" class="card-img-top" alt="...">
+      <img src="images/1st.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">Food Blogger unstoppable <a href="https://www.dreamstime.com/photos-images/food-blogger.html">Watch now</a></p>
       </div>
@@ -76,7 +76,7 @@
 
     <!-- Card 4 -->
     <div class="card mb-3">
-      <img src="/images/7th.jpg" class="card-img-top" alt="...">
+      <img src="images/7th.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">Food Blogger unstoppable <a href="https://www.dreamstime.com/photos-images/food-blogger.html">Watch now</a></p>
       </div>
@@ -151,7 +151,7 @@ else{
       let btn=``;
       for (let itm of data.meals) {
         btn += `<button class="animate__animated animate__fadeInUp mybtncolor">
-           <a href="/dishes.html?c=${encodeURIComponent(itm.strCategory)}">
+           <a href="dishes.html?c=${encodeURIComponent(itm.strCategory)}">
             ${itm.strCategory}
            </a>
            </button>` 

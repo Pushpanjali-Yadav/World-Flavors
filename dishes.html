@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" href="/images/icon.png" type="image/x-icon">
+  <link rel="icon" href="icon.png" type="image/x-icon">
   <title>World Flavors</title>
 
   <!-- Bootstrap CDN -->
@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="dishes-style.css">
 <body>
   <nav class="navbar navbar-expand-lg shadow-sm px-2">
-    <a class="navbar-brand " href="/index.html"><img id="icon" src="/images/icon.png" alt=""/> World Flavors🥧</a>
+    <a class="navbar-brand " href="index.html"><img id="icon" src="icon.png" alt=""/> World Flavors🥧</a>
     <div class="ms-auto">
       <form onsubmit="return false;" class="form-inline d-flex align-items-center gap-2">
         <input list="ctr" id="browser" placeholder="Search By Area" autocomplete="off" onkeyup="show()" />
@@ -29,11 +29,11 @@
   </nav>
 
    <!-- Linking all pages -->
-   <a href="/index.html"></a>
-   <a href="/categories.html"></a>
-   <a href="/dishes.html"></a>
-   <a href="/ingredients.html"></a>
-   <a href="/recipegallery.html"></a>
+   <a href="index.html"></a>
+   <a href="categories.html"></a>
+   <a href="dishes.html"></a>
+   <a href="ingredients.html"></a>
+   <a href="recipegallery.html"></a>
   <!-- Category Buttons -->
   <div id="hbar"></div>
 
@@ -117,7 +117,7 @@ const category = params.get("c");
               <div class="card-body">
                 <h5 class="card-title">${meal.strMeal}</h5>
                 <p class="card-text">Category name ${subtitle}</p>
-                <a href="/ingredients.html?mealId=${meal.idMeal}" class="btn btn-outline-primary btn-sm">See Ingredients</a>
+                <a href="ingredients.html?mealId=${meal.idMeal}" class="btn btn-outline-primary btn-sm">See Ingredients</a>
               </div>
             </div>
           </div>`;
