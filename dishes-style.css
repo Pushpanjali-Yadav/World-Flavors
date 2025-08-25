@@ -3,7 +3,6 @@
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       background: linear-gradient(to bottom right, #c9ac8c, #204891);
       font-family: 'Segoe UI', sans-serif;
@@ -15,12 +14,10 @@
     
     padding: 0;
   }
-
     nav.navbar {
       background: linear-gradient(to right, #a8edea, #fed6e3);
     }
-
-    .navbar-brand {
+   .navbar-brand {
       font-weight: bold;
       font-size: 1.5rem;
     }

@@ -17,6 +17,7 @@
 </head>
 <link rel="stylesheet" href="dishes-style.css">
 <body>
+  <!-- nav bar here -->
   <nav class="navbar navbar-expand-lg shadow-sm px-2">
     <a class="navbar-brand " href="index.html"><img id="icon" src="icon.png" alt=""/> World Flavors🥧</a>
     <div class="ms-auto">
@@ -34,19 +35,21 @@
    <a href="dishes.html"></a>
    <a href="ingredients.html"></a>
    <a href="recipegallery.html"></a>
+
   <!-- Category Buttons -->
   <div id="hbar"></div>
 
   <!-- Meals Display -->
   <div id="box" class="container-fluid">
-
+       
   </div>
+
+  <!-- footer -->
 <footer  style="margin-bottom: 0; margin-top: 30px;">
-<div class="copyright text-center">
-        
+  <div class="copyright text-center">   
        <p>Copyright @ Pushpanjali.<i class="fa-solid fa-heart" style="color: red;"></i> Made for web-project:: Project name is "World Food Menu"</p>
-    </div>
-    </footer>
+  </div>
+</footer>
   
 </body>
 <!-- JavaScript -->
@@ -88,7 +91,6 @@
       const data = await res.json();
       displayMeals(data.meals, `${val} Cuisine`);
       document.getElementById("browser").value="";
-   
     }
 
     // Show meals by category
@@ -98,12 +100,12 @@
       const data = await res.json();
       displayMeals(data.meals, `${category} Meals`);
     }
+
 //url of frontpage to show categories here.......
 async function fromFirst() {
   const params = new URLSearchParams(window.location.search);
-const category = params.get("c");
+  const category = params.get("c");
   showByCategory(category);
-
 }
 
     // Display meals as animated cards
@@ -126,14 +128,12 @@ const category = params.get("c");
       box.innerHTML = cards;
     }
 
-  
-        // Initial load
-window.addEventListener("DOMContentLoaded", () => {
-  fromFirst(); 
-  categories();
-  area();
+    // Initial load
+  window.addEventListener("DOMContentLoaded", () => {
+      fromFirst(); 
+      categories();
+      area();
 });
-
   </script>
 
   <!-- Bootstrap Bundle -->

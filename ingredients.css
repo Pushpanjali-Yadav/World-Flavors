@@ -17,10 +17,9 @@
     
     padding: 0;
   }
-      .bg{
-         background: linear-gradient(to right, #a8edea, #fed6e3);
- 
-      }
+  .bg{
+     background: linear-gradient(to right, #a8edea, #fed6e3);
+     }
       
     .navbar-brand {
       font-weight: bold;
@@ -59,6 +58,7 @@
         margin-top: 30px;
         margin: 20px 5px;
       }
+
       #t5{
         width: 350px;
         height: 350px;
@@ -69,6 +69,7 @@
         margin-right: 10%;
         background-color: rgb(246, 244, 241);
       }
+      
       #t4{
         color: black;
         font-style: italic;
