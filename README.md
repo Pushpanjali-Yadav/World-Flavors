@@ -161,25 +161,25 @@ Once **World of flavours** is web application  opened in the browser, you can us
 ## 🖼 Screenshots
 
 ### 1. Homepage / Landing Page
-![Homepage](SS/S1E.png)
-*Clean and simple landing page introducing the Habit Heatmap Tracker.*
+![Homepage](images/1st.jpg)
+*Clean and simple landing page introducing the World of Flavours.*
 
 ---
 
 ### 2. User Registration & Login
-![Register](SS/RLE.png)
-*Secure user registration and login system with hashed passwords.*
+![Category](images/3rd.jpg)
+*See Caterories.*
 
 ---
 
 ### 4. Add & Manage Habits
-![Add Habits](SS/S4.png)
-*Easily add new habits and track them over time.*
+![Ingredients](images/4th.jpg)
+*Dishes.*
 
 ---
 
 ### 3. Dashboard – Heatmap View
-![Dashboard](SS/S3.png)
+![Recipe Gallary](images/7th.jpg)
 
 ---
 
