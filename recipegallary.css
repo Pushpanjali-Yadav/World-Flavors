@@ -82,3 +82,18 @@
         font-size: 0.95rem;
       }
     }
+.abc{
+ 
+    position:sticky;
+    top:0;
+    
+    height:fit-content;
+
+  }
+  .a{
+    width:100%;
+    height:fit-content;
+    justify-content:space-between;
+    
+  }
+
