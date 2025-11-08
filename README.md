@@ -69,23 +69,19 @@ This project reflects my learning journey throughout Deepanshi Software Soluion,
 ```plaintext
 WORLD_FLAVOURS/
 │
-├── index.html                # Main Flask application
-├── dishes.html           # SQLite database
-├── SS/                   # Screenshots of my web application
+├── index.html                  # front page of the application
+├── dishes.html                 # show all dishes
+├── categories.html                
+├── ingredients.html            #inredient page  show all about any dish
+├── recipegallary.html
+├── index-categories.css
+├── dishes.css
+├── ingredients.css          
+├── recipegallary.css 
 │
-├── templates/            # HTML templates
-│   ├── layout.html
-│   ├── index.html
-│   ├── register.html
-│   └── dashboard.html
-│
-├── static/               # CSS, JavaScript, images
-│   ├── images/            # It contains all emoge and images
-│   ├── style.css 
-│   └── heatmap.js
-│
+├── images/               # It contains all  images
 ├── README.md             # Project documentation
-└── requirements.txt      # Dependencies
+
 
 ```
 
@@ -161,25 +157,30 @@ Once **World of flavours** is web application  opened in the browser, you can us
 ## 🖼 Screenshots
 
 ### 1. Homepage / Landing Page
-![Homepage](images/1st.jpg)
+![Homepage](images/p1.jpg)
 *Clean and simple landing page introducing the World of Flavours.*
 
 ---
 
-### 2. User Registration & Login
-![Category](images/3rd.jpg)
+### 2. View all types of meal category
+![Category](images/p2.jpg)
 *See Caterories.*
 
 ---
 
-### 4. Add & Manage Habits
-![Ingredients](images/4th.jpg)
+### 4.View all types of dishes
+![Ingredients](images/p3.jpg)
 *Dishes.*
 
 ---
 
-### 3. Dashboard – Heatmap View
-![Recipe Gallary](images/7th.jpg)
+### 3. watch all ingredient detail
+![Recipe Gallary](images/p4.jpg)
+
+---
+
+### 3. View Expert video gallary
+![Recipe Gallary](images/p5.jpg)
 
 ---
 
