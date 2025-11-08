@@ -17,16 +17,10 @@
 </head>
 <link rel="stylesheet" href="dishes-style.css">
 <body>
-  <!-- nav bar here -->
+ <!-- nav bar here -->
   <nav class="navbar navbar-expand-lg shadow-sm px-2">
     <a class="navbar-brand " href="index.html"><img id="icon" src="icon.png" alt=""/> World Flavors🥧</a>
-    <div class="ms-auto">
-      <form onsubmit="return false;" class="form-inline d-flex align-items-center gap-2">
-        <input list="ctr" id="browser" placeholder="Search By Area" autocomplete="off" onkeyup="show()" />
-        <datalist id="ctr"></datalist>
-      </form>
-    </div>
-    <button id="btnnav" class="btn ms-3 btn-primary"><i class="fa-solid fa-user "></i></button>
+    <button id="btnnav" class="btn ms-3 btn-primary ms-auto"><i class="fa-solid fa-user "></i></button>
   </nav>
 
    <!-- Linking all pages -->
@@ -39,6 +33,21 @@
   <!-- Category Buttons -->
   <div id="hbar"></div>
 
+  
+  <!-- Search Bar Below Navbar -->
+<div class=" py-2">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6">
+        <form onsubmit="return false;" class="d-flex align-items-center gap-2 shadow-sm rounded px-3 py-2 bg-white">
+          <input list="ctr" id="browser" class="form-control" placeholder="🔍 Search by Area/Country Name" autocomplete="off" onkeyup="show()" />
+          <datalist id="ctr"></datalist>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  
   <!-- Meals Display -->
   <div id="box" class="container-fluid">
        
