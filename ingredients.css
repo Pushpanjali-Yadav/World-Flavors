@@ -69,6 +69,17 @@
         margin-right: 10%;
         background-color: rgb(246, 244, 241);
       }
+
+/* Responsive design for mobile devices (screen width ≤ 480px) */
+@media (max-width: 480px) {
+  #t5 {
+    width: 250px;
+    height: 280px;
+    border-width: 6px;
+    margin: 20px auto;
+  }
+}
+
       
       #t4{
         color: black;
@@ -90,6 +101,18 @@
         padding: 0px;
         border-radius: 5px;
       }
+      iframe{
+        width:405px;
+        height:250px;
+      }
+      @media (max-width: 480px) {
+  iframe{
+    width: 375px;
+    height: 220px;
+    
+
+  }
+}
       .row2{
         margin-bottom: 3%;
         padding-left: 10px;
