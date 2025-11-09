@@ -103,7 +103,15 @@
         padding: 0px;
         border-radius: 5px;
       }
-
+   
+   @media (max-width: 480px) {
+  iframe{
+    width: 350px;
+    height: 200px;
+    border-width: 6px;
+    margin: 5px auto;
+  }
+}
 
       .row2{
         margin-bottom: 3%;
