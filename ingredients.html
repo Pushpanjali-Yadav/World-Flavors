@@ -124,8 +124,7 @@ t4.innerHTML=`<h3>Description</h3> ${obj.strInstructions}`;
 //adding video.........
 const videoId = obj.strYoutube.split("v=")[1]; // Extract YouTube video ID
 const iframe = document.createElement("iframe");
-iframe.width = "405";
-iframe.height = "250";
+
 iframe.src = `https://www.youtube.com/embed/${videoId}`;
 iframe.allowFullscreen = true;
 video.appendChild(iframe)
